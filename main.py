@@ -65,3 +65,39 @@ btn6.grid(row=2, column=2)
 btn_subtract = Button(window, padx=16, bd=8, fg="black", font=("arial", 20, "bold"), text="-",
                       command=lambda: buttonClick("-"))
 btn_subtract.grid(row=2, column=3)
+# calculator row 3
+
+btn7 = Button(window, padx=16, bd=8, fg="white", font=("arial", 20, "bold"), text="7", background="#B2BEB5",
+              command=lambda: buttonClick(7))
+btn7.grid(row=3, column=0)
+
+btn8 = Button(window, padx=16, bd=8, fg="black", font=("arial", 20, "bold"), text="8", command=lambda: buttonClick(8))
+btn8.grid(row=3, column=1)
+
+btn9 = Button(window, padx=16, bd=8, fg="WHITE", font=("arial", 20, "bold"), text="9", background="#B2BEB5",
+              command=lambda: buttonClick(9))
+btn9.grid(row=3, column=2)
+
+btn_multiply = Button(window, padx=16, bd=8, fg="black", font=("arial", 20, "bold"), text="*",
+                      command=lambda: buttonClick("*"))
+btn_multiply.grid(row=3, column=3)
+
+# calculator row 4
+
+
+btn0 = Button(window, padx=16, bd=8, fg="black", font=("arial", 20, "bold"), text="0", command=lambda: buttonClick(0))
+btn0.grid(row=4, column=0)
+
+btn_clear = Button(window, padx=16, bd=8, fg="black", font=("arial", 20, "bold"), text="cl", command=buttonclear)
+btn_clear.grid(row=4, column=1)
+
+btn_div = Button(window, padx=16, bd=8, fg="black", font=("arial", 20, "bold"), text="/",
+                 command=lambda: buttonClick("/"))
+btn_div.grid(row=4, column=2)
+
+btn_equal = Button(window, padx=16, bd=8, fg="WHITE", font=("arial", 20, "bold"), text="=", background="black",
+                   command=buttonEqual)
+btn_equal.grid(row=4, column=3)
+
+window.mainloop()
+
