@@ -27,3 +27,9 @@ multiplication
 
 Division
 
+![division1](https://github.com/nemuel-laushi/COS-GROUP-PROJECT.MASTER/assets/151081201/5126cb66-575b-4786-8d97-d74e2cde3dcb)
+
+
+![divison 2](https://github.com/nemuel-laushi/COS-GROUP-PROJECT.MASTER/assets/151081201/fea1829e-2eb1-4d3b-be69-8cfd65133419)
+
+
